@@ -78,12 +78,15 @@ sudo ./translate2german.sh
 In das html-Verzeichnis wechseln:
 ```bash
 cd /var/www/html/admin
+```
 danach resetten:
 ```bash
 sudo git reset --hard origin/master
+```
 jetzt kann der Update-Befehl ausgeführt werden:
 ```bash
 pihole -up
+```
 <br>
 <br>
 
