@@ -1,17 +1,18 @@
 # translate2german (32 bit)
 **Übersetzung der pi-hole Weboberfläche auf deutsch**<br>
-**Dieses Skript funktioniert für die letzte 32 bit Version des Pi-Hole**
+**Dieses Skript funktioniert für die letzte 32 bit Version des Pi-Hole**<br>
 <br>
 Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
 Das Skript funktioniert dennoch einwandfrei.
 <br>
 <br>
-Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.
+Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.<br>
 <br>
+Erreicht wird das mit dem Befehl:<br>
 <br>
-Erreicht wird das mit dem Befehl:
+sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
 <br>
-sed -i 's/--encoding UTF-8 //' translate2german.sh
+Dieser Befehl kann also ausgeführt werden, nachdem das Original von Pimaster heruntergeladen wurden und man hat daselbe Skript, wie von dieser Seite.
 <br>
 <br>
 Bevor die Übersetzung beginnt, werden
