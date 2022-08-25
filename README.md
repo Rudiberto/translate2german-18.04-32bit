@@ -2,7 +2,8 @@
 **Übersetzung der pi-hole Weboberfläche auf deutsch**<br>
 **Dieses Skript funktioniert für die letzte 32 bit Version des Pi-Hole**
 <br>
-Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt. Das Skript funktioniert dennoch einwandfrei.
+Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
+Das Skript funktioniert dennoch einwandfrei.
 <br>
 <br>
 Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.
