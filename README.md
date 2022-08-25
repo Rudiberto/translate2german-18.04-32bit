@@ -1,5 +1,6 @@
 # translate2german
 **Übersetzung der pi-hole Weboberfläche auf deutsch**
+*funktioniert für die letzte 32 bit Version des Pi-Hole*
 <br>
 Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt. Das Skript funkioniert dennoch einwandfrei.
 <br>
