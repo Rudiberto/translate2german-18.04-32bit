@@ -6,8 +6,10 @@ Die Option "--encoding UTF-8" ist aus dem Script gelöscht, weil die 32-bit-Vers
 Das Skript funktioniert dennoch einwandfrei.<br>
 <br>
 Erzeugt wird das mit dem Befehl:<br>
-<br>
+
+```bash
 sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
+```
 <br>
 Dieser Befehl kann alternativ ausgeführt werden, nachdem das Original von PimanDE heruntergeladen wurde und man erhält daselbe Skript, wie von dieser Seite.
 <br>
