@@ -8,7 +8,7 @@ Das Skript funktioniert dennoch einwandfrei.<br>
 Erzeugt wird das mit dem Befehl:<br>
 
 ```bash
-sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
+sed -i 's/--encoding UTF-8 //' translate2german.sh
 ```
 <br>
 Dieser Befehl kann alternativ ausgeführt werden, nachdem das Original von PimanDE heruntergeladen wurde und man erhält daselbe Skript, wie von dieser Seite.
