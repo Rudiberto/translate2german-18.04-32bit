@@ -5,11 +5,11 @@
 Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
 Das Skript funktioniert dennoch einwandfrei.<br>
 <br>
-Erreicht wird das mit dem Befehl:<br>
+Erzeugtt wird das mit dem Befehl:<br>
 <br>
 sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
 <br>
-Dieser Befehl kann also ausgeführt werden, nachdem das Original von Pimaster heruntergeladen wurden und man hat daselbe Skript, wie von dieser Seite.
+Dieser Befehl kann alternativ ausgeführt werden, nachdem das Original von Pimaster heruntergeladen wurde und man erhält daselbe Skript, wie von dieser Seite.
 <br>
 <br>
 Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.<br>
