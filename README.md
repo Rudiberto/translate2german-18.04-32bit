@@ -85,7 +85,7 @@ sudo git reset --hard origin/master
 ```
 jetzt kann der Update-Befehl ausgeführt werden:
 ```bash
-pihole -up
+pihole -up && sudo curl -sSL https://raw.github.com/Rudiberto/translate2german-18.04-32bit/master/translate2german.sh | bash
 ```
 <br>
 <br>
