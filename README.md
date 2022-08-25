@@ -9,7 +9,7 @@ Erzeugtt wird das mit dem Befehl:<br>
 <br>
 sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
 <br>
-Dieser Befehl kann alternativ ausgeführt werden, nachdem das Original von Pimaster heruntergeladen wurde und man erhält daselbe Skript, wie von dieser Seite.
+Dieser Befehl kann alternativ ausgeführt werden, nachdem das Original von PimanDE heruntergeladen wurde und man erhält daselbe Skript, wie von dieser Seite.
 <br>
 <br>
 Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.<br>
