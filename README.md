@@ -9,6 +9,11 @@ Das Skript funktioniert dennoch einwandfrei.
 Mit diesem Script wird die Weboberfläche Version 5.13 des Pi-hole auf deutsch übersetzt.
 <br>
 <br>
+Erreicht wird das mit dem Befehl:
+<br>
+sed -i 's/--encoding UTF-8 //' translate2german.sh
+<br>
+<br>
 Bevor die Übersetzung beginnt, werden
 
 das Verzeichnis<br>
