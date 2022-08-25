@@ -2,7 +2,7 @@
 **Übersetzung der pi-hole Weboberfläche auf deutsch**<br>
 **Dieses Skript funktioniert für die letzte 32 bit Version des Pi-Hole**<br>
 <br>
-Die --encoding UTF-8"-Option ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
+Die Option "--encoding UTF-8" ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
 Das Skript funktioniert dennoch einwandfrei.<br>
 <br>
 Erzeugtt wird das mit dem Befehl:<br>
@@ -83,7 +83,7 @@ danach resetten:
 ```bash
 sudo git reset --hard origin/master
 ```
-jetzt kann der Update-Befehl ausgeführt werden:
+jetzt kann der Update-Befehl mit anschließender Übersetzung ausgeführt werden:
 ```bash
 pihole -up && sudo curl -sSL https://raw.github.com/Rudiberto/translate2german-18.04-32bit/master/translate2german.sh | bash
 ```
