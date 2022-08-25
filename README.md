@@ -5,7 +5,7 @@
 Die Option "--encoding UTF-8" ist aus dem Script gelöscht, weil die 32-bit-Version diese Option nicht kennt.<br>
 Das Skript funktioniert dennoch einwandfrei.<br>
 <br>
-Erzeugtt wird das mit dem Befehl:<br>
+Erzeugt wird das mit dem Befehl:<br>
 <br>
 sed -i 's/--encoding UTF-8 //' translate2german.sh<br>
 <br>
