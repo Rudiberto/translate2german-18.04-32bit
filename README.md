@@ -69,10 +69,25 @@ sudo ./translate2german.sh
 
 **Screenshot:**
 <br>
-![img](https://raw.githubusercontent.com/pimanDE/translate2german/master/pihole-weboberfl%C3%A4che-auf-deutsch.png)
+![img](https://raw.githubusercontent.com/pimanDE/translate2german/master/pihole-weboberfl%C3%A4che-auf-deutsch.png)<br>
 <br>
 <br>
+**Resetten vor Update "pihole -up":**<br>
 <br>
+<br>
+In das html-Verzeichnis wechseln:
+```bash
+cd /var/www/html/admin
+danach resetten:
+```bash
+sudo git reset --hard origin/master
+jetzt kann der Update-Befehl ausgeführt werden:
+```bash
+pihole -up
+<br>
+<br>
+
+
 
 **Rückgängig machen:**
 
