@@ -34,11 +34,11 @@ gesichert.
 <br>
 <br>
 
-**Bevor Sie mit der Übersetzung beginnen:**
+**Bevor Du mit der Übersetzung beginnst:**
 
-* haben Sie ein Backup von Ihrem System gemacht,
-* haben Sie sich vom Quellcode überzeugt,
-* wissen Sie, dass Sie alles auf eigene Gefahr tun,
+* hast du ein Backup von Ihrem System gemacht,
+* hast du sich vom Quellcode überzeugt,
+* weißt, dass du alles auf eigene Gefahr tust,
 * ...
 <br>
 <br>
@@ -96,7 +96,7 @@ pihole -up && sudo curl -sSL https://raw.github.com/Rudiberto/translate2german-1
 
 **Rückgängig machen:**
 
-Wenn Sie die Übersetzung wieder rückgängig machen wollen:
+Wenn du die Übersetzung wieder rückgängig machen willst:
 
 ```bash
 bash -c "$(curl -sSL https://raw.githubusercontent.com/pimanDE/translate2german/master/restore2translate.sh)"
